@@ -14,13 +14,11 @@
 
 		<maven-surefire-plugin.version>2.6</maven-surefire-plugin.version>
 		<maven-compiler-plugin.version>2.3.2</maven-compiler-plugin.version>
-		<maven-gae-plugin.version>0.9.2</maven-gae-plugin.version>
-		<gwt-maven-plugin.version>2.4.0</gwt-maven-plugin.version>
+		<gwt-maven-plugin.version>2.5.1</gwt-maven-plugin.version>
 
 		<arcbees-core.version>1.0-SNAPSHOT</arcbees-core.version>
-		<gae.version>1.6.3.1</gae.version>
-		<gwt.version>2.4.0</gwt.version>
-		<gwtp.version>0.7</gwtp.version>
+		<gwt.version>2.5.1</gwt.version>
+		<gwtp.version>1.0-RC-3.1</gwtp.version>
 		<guice.version>3.0</guice.version>
 		<gin.version>1.5.0</gin.version>
 		<objectify.version>3.1</objectify.version>
@@ -101,14 +99,12 @@
 			<groupId>com.gwtplatform</groupId>
 			<artifactId>gwtp-mvp-client</artifactId>
 			<version>${gwtp.version}</version>
-			<scope>provided</scope>
 		</dependency>
 
 		<dependency>
 			<groupId>com.gwtplatform</groupId>
 			<artifactId>gwtp-dispatch-client</artifactId>
 			<version>${gwtp.version}</version>
-			<scope>provided</scope>
 		</dependency>
 
 		<dependency>
@@ -127,14 +123,12 @@
 			<groupId>com.gwtplatform</groupId>
 			<artifactId>gwtp-processors</artifactId>
 			<version>${gwtp.version}</version>
-			<scope>provided</scope>
 		</dependency>
 
 		<dependency>
 			<groupId>com.arcbees.core</groupId>
 			<artifactId>arcbees-core</artifactId>
 			<version>${arcbees-core.version}</version>
-			<scope>provided</scope>
 		</dependency>
 
 		<!-- DI dependencies -->
